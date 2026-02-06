@@ -217,6 +217,9 @@ body {
 }
 
 .how-to-play-link {
+    display: block;
+    text-align: center;
+    margin-top: 16px;
     color: var(--text-secondary);
     text-decoration: none;
     font-weight: 500;
