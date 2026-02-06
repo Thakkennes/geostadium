@@ -1,0 +1,122 @@
+{% extends "base.html" %}
+
+{% block title %}GeoStadium - Home{% endblock %}
+
+{% block content %}
+<div class="home-container">
+    <header class="home-header">
+        <img src="{{ url_for('static', filename='geostadium_logo.png') }}" alt="GeoStadium" class="logo-image">
+        <p class="tagline">Can you pin the pitch?</p>
+    </header>
+
+    <main class="home-main">
+        <div class="game-options">
+            <div class="option-group">
+                <label for="league-select">League</label>
+                <select id="league-select">
+                    <option value="all">All Leagues</option>
+                    <option value="MLB">MLB</option>
+                    <option value="AAA">Triple-A (AAA)</option>
+                    <option value="AA">Double-A (AA)</option>
+                    <option value="High-A">High-A</option>
+                    <option value="Low-A">Low-A</option>
+                    <option value="Spring">Spring Training</option>
+                    <option value="other">Other Sports</option>
+                </select>
+            </div>
+
+            <div class="option-group">
+                <label for="rounds-select">Rounds</label>
+                <select id="rounds-select">
+                    <option value="3">3 Rounds</option>
+                    <option value="5" selected>5 Rounds</option>
+                    <option value="10">10 Rounds</option>
+                </select>
+            </div>
+
+            <div class="option-group" id="token-group">
+                <label for="mapbox-token">Mapbox Token</label>
+                <input type="text" id="mapbox-token" placeholder="Enter your Mapbox access token" value="{{ mapbox_token }}">
+                <small class="token-help">Get a free token at <a href="https://www.mapbox.com/" target="_blank">mapbox.com</a>. Or set it once in config.json</small>
+            </div>
+
+            <button id="start-game" class="btn-primary">Start Game</button>
+        </div>
+
+        <div class="high-scores">
+            <h2>High Scores</h2>
+            <div id="scores-list">
+                <p class="no-scores">No scores yet. Play a game!</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="home-footer">
+        <p>Identify stadiums from satellite imagery</p>
+    </footer>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', async () => {
+    // Load saved token (prefer server config, then localStorage)
+    const tokenInput = document.getElementById('mapbox-token');
+    const serverToken = tokenInput.value.trim();
+    if (serverToken) {
+        // Token from config.json - hide the input
+        document.getElementById('token-group').style.display = 'none';
+        localStorage.setItem('mapbox_token', serverToken);
+    } else {
+        const savedToken = localStorage.getItem('mapbox_token');
+        if (savedToken) {
+            tokenInput.value = savedToken;
+        }
+    }
+
+    // Load high scores
+    loadHighScores();
+
+    // Start game button
+    document.getElementById('start-game').addEventListener('click', () => {
+        const token = document.getElementById('mapbox-token').value.trim();
+        if (!token) {
+            alert('Please enter your Mapbox access token');
+            return;
+        }
+
+        localStorage.setItem('mapbox_token', token);
+
+        const league = document.getElementById('league-select').value;
+        const rounds = document.getElementById('rounds-select').value;
+
+        const params = new URLSearchParams({
+            league,
+            rounds
+        });
+
+        window.location.href = `/game?${params.toString()}`;
+    });
+});
+
+function loadHighScores() {
+    const scores = JSON.parse(localStorage.getItem('high_scores') || '[]');
+    const scoresList = document.getElementById('scores-list');
+
+    if (scores.length === 0) {
+        scoresList.innerHTML = '<p class="no-scores">No scores yet. Play a game!</p>';
+        return;
+    }
+
+    const sortedScores = scores.sort((a, b) => b.score - a.score).slice(0, 5);
+
+    scoresList.innerHTML = sortedScores.map((entry, i) => `
+        <div class="score-entry">
+            <span class="rank">#${i + 1}</span>
+            <span class="score">${entry.score.toLocaleString()}</span>
+            <span class="details">${entry.rounds} rounds - ${entry.league || entry.difficulty || 'all'}</span>
+        </div>
+    `).join('');
+}
+</script>
+{% endblock %}

@@ -1,0 +1,2376 @@
+{
+  "stadiums": [
+    {
+      "id": "stadium_001",
+      "name": "Old Trafford",
+      "team": "Manchester United",
+      "sport": "football",
+      "league": "Premier League",
+      "level": "major",
+      "coordinates": { "lat": 53.4631, "lng": -2.2913 },
+      "radius": 150,
+      "hints": {
+        "city": "Manchester",
+        "country": "England",
+        "capacity": 74310,
+        "opened": 1910
+      }
+    },
+    {
+      "id": "stadium_002",
+      "name": "Camp Nou",
+      "team": "FC Barcelona",
+      "sport": "football",
+      "league": "La Liga",
+      "level": "major",
+      "coordinates": { "lat": 41.3809, "lng": 2.1228 },
+      "radius": 170,
+      "hints": {
+        "city": "Barcelona",
+        "country": "Spain",
+        "capacity": 99354,
+        "opened": 1957
+      }
+    },
+    {
+      "id": "stadium_003",
+      "name": "Santiago Bernabéu",
+      "team": "Real Madrid",
+      "sport": "football",
+      "league": "La Liga",
+      "level": "major",
+      "coordinates": { "lat": 40.4531, "lng": -3.6883 },
+      "radius": 150,
+      "hints": {
+        "city": "Madrid",
+        "country": "Spain",
+        "capacity": 81044,
+        "opened": 1947
+      }
+    },
+    {
+      "id": "stadium_004",
+      "name": "Allianz Arena",
+      "team": "Bayern Munich",
+      "sport": "football",
+      "league": "Bundesliga",
+      "level": "major",
+      "coordinates": { "lat": 48.2188, "lng": 11.6247 },
+      "radius": 160,
+      "hints": {
+        "city": "Munich",
+        "country": "Germany",
+        "capacity": 75000,
+        "opened": 2005
+      }
+    },
+    {
+      "id": "stadium_005",
+      "name": "San Siro",
+      "team": "AC Milan / Inter Milan",
+      "sport": "football",
+      "league": "Serie A",
+      "level": "major",
+      "coordinates": { "lat": 45.4781, "lng": 9.1240 },
+      "radius": 150,
+      "hints": {
+        "city": "Milan",
+        "country": "Italy",
+        "capacity": 75923,
+        "opened": 1926
+      }
+    },
+    {
+      "id": "stadium_006",
+      "name": "Anfield",
+      "team": "Liverpool FC",
+      "sport": "football",
+      "league": "Premier League",
+      "level": "major",
+      "coordinates": { "lat": 53.4308, "lng": -2.9608 },
+      "radius": 140,
+      "hints": {
+        "city": "Liverpool",
+        "country": "England",
+        "capacity": 61276,
+        "opened": 1884
+      }
+    },
+    {
+      "id": "stadium_009",
+      "name": "Madison Square Garden",
+      "team": "New York Knicks / Rangers",
+      "sport": "basketball",
+      "league": "NBA/NHL",
+      "level": "major",
+      "coordinates": { "lat": 40.7505, "lng": -73.9934 },
+      "radius": 100,
+      "hints": {
+        "city": "New York",
+        "country": "United States",
+        "capacity": 19812,
+        "opened": 1968
+      }
+    },
+    {
+      "id": "stadium_010",
+      "name": "Crypto.com Arena",
+      "team": "LA Lakers / Clippers",
+      "sport": "basketball",
+      "league": "NBA",
+      "level": "major",
+      "coordinates": { "lat": 34.0430, "lng": -118.2673 },
+      "radius": 100,
+      "hints": {
+        "city": "Los Angeles",
+        "country": "United States",
+        "capacity": 19060,
+        "opened": 1999
+      }
+    },
+    {
+      "id": "stadium_011",
+      "name": "Wembley Stadium",
+      "team": "Wembley Stadium",
+      "sport": "football",
+      "league": "International",
+      "level": "major",
+      "coordinates": { "lat": 51.5560, "lng": -0.2795 },
+      "radius": 170,
+      "hints": {
+        "city": "London",
+        "country": "England",
+        "capacity": 90000,
+        "opened": 2007
+      }
+    },
+    {
+      "id": "stadium_012",
+      "name": "Signal Iduna Park",
+      "team": "Borussia Dortmund",
+      "sport": "football",
+      "league": "Bundesliga",
+      "level": "major",
+      "coordinates": { "lat": 51.4926, "lng": 7.4519 },
+      "radius": 150,
+      "hints": {
+        "city": "Dortmund",
+        "country": "Germany",
+        "capacity": 81365,
+        "opened": 1974
+      }
+    },
+    {
+      "id": "stadium_013",
+      "name": "Maracanã",
+      "team": "Flamengo / Fluminense",
+      "sport": "football",
+      "league": "Brasileirão",
+      "level": "major",
+      "coordinates": { "lat": -22.9121, "lng": -43.2302 },
+      "radius": 160,
+      "hints": {
+        "city": "Rio de Janeiro",
+        "country": "Brazil",
+        "capacity": 78838,
+        "opened": 1950
+      }
+    },
+    {
+      "id": "stadium_014",
+      "name": "Melbourne Cricket Ground",
+      "team": "Australia Cricket / AFL",
+      "sport": "cricket",
+      "league": "International/AFL",
+      "level": "major",
+      "coordinates": { "lat": -37.8200, "lng": 144.9834 },
+      "radius": 180,
+      "hints": {
+        "city": "Melbourne",
+        "country": "Australia",
+        "capacity": 100024,
+        "opened": 1853
+      }
+    },
+    {
+      "id": "stadium_015",
+      "name": "AT&T Stadium",
+      "team": "Dallas Cowboys",
+      "sport": "american_football",
+      "league": "NFL",
+      "level": "major",
+      "coordinates": { "lat": 32.7473, "lng": -97.0945 },
+      "radius": 180,
+      "hints": {
+        "city": "Arlington",
+        "country": "United States",
+        "capacity": 80000,
+        "opened": 2009
+      }
+    },
+    {
+      "id": "stadium_016",
+      "name": "Lambeau Field",
+      "team": "Green Bay Packers",
+      "sport": "american_football",
+      "league": "NFL",
+      "level": "major",
+      "coordinates": { "lat": 44.5013, "lng": -88.0622 },
+      "radius": 150,
+      "hints": {
+        "city": "Green Bay",
+        "country": "United States",
+        "capacity": 81441,
+        "opened": 1957
+      }
+    },
+    {
+      "id": "stadium_017",
+      "name": "Parc des Princes",
+      "team": "Paris Saint-Germain",
+      "sport": "football",
+      "league": "Ligue 1",
+      "level": "major",
+      "coordinates": { "lat": 48.8414, "lng": 2.2530 },
+      "radius": 140,
+      "hints": {
+        "city": "Paris",
+        "country": "France",
+        "capacity": 47929,
+        "opened": 1972
+      }
+    },
+    {
+      "id": "stadium_018",
+      "name": "Johan Cruyff Arena",
+      "team": "Ajax Amsterdam",
+      "sport": "football",
+      "league": "Eredivisie",
+      "level": "major",
+      "coordinates": { "lat": 52.3140, "lng": 4.9419 },
+      "radius": 150,
+      "hints": {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "capacity": 55500,
+        "opened": 1996
+      }
+    },
+    {
+      "id": "stadium_019",
+      "name": "Emirates Stadium",
+      "team": "Arsenal FC",
+      "sport": "football",
+      "league": "Premier League",
+      "level": "major",
+      "coordinates": { "lat": 51.5549, "lng": -0.1084 },
+      "radius": 140,
+      "hints": {
+        "city": "London",
+        "country": "England",
+        "capacity": 60704,
+        "opened": 2006
+      }
+    },
+    {
+      "id": "stadium_020",
+      "name": "Stamford Bridge",
+      "team": "Chelsea FC",
+      "sport": "football",
+      "league": "Premier League",
+      "level": "major",
+      "coordinates": { "lat": 51.4817, "lng": -0.1910 },
+      "radius": 130,
+      "hints": {
+        "city": "London",
+        "country": "England",
+        "capacity": 40343,
+        "opened": 1877
+      }
+    },
+
+    {
+      "id": "mlb_001",
+      "name": "Yankee Stadium",
+      "team": "New York Yankees",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 40.8296, "lng": -73.9262 },
+      "radius": 180,
+      "hints": {
+        "city": "Bronx, New York",
+        "country": "United States",
+        "capacity": 46537,
+        "opened": 2009
+      }
+    },
+    {
+      "id": "mlb_002",
+      "name": "Fenway Park",
+      "team": "Boston Red Sox",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 42.3467, "lng": -71.0972 },
+      "radius": 160,
+      "hints": {
+        "city": "Boston",
+        "country": "United States",
+        "capacity": 37755,
+        "opened": 1912
+      }
+    },
+    {
+      "id": "mlb_003",
+      "name": "Rogers Centre",
+      "team": "Toronto Blue Jays",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 43.6414, "lng": -79.3894 },
+      "radius": 180,
+      "hints": {
+        "city": "Toronto",
+        "country": "Canada",
+        "capacity": 49282,
+        "opened": 1989
+      }
+    },
+    {
+      "id": "mlb_004",
+      "name": "Tropicana Field",
+      "team": "Tampa Bay Rays",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 27.7682, "lng": -82.6534 },
+      "radius": 170,
+      "hints": {
+        "city": "St. Petersburg",
+        "country": "United States",
+        "capacity": 25000,
+        "opened": 1990
+      }
+    },
+    {
+      "id": "mlb_005",
+      "name": "Oriole Park at Camden Yards",
+      "team": "Baltimore Orioles",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 39.2838, "lng": -76.6218 },
+      "radius": 170,
+      "hints": {
+        "city": "Baltimore",
+        "country": "United States",
+        "capacity": 45971,
+        "opened": 1992
+      }
+    },
+    {
+      "id": "mlb_006",
+      "name": "Progressive Field",
+      "team": "Cleveland Guardians",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 41.4962, "lng": -81.6852 },
+      "radius": 170,
+      "hints": {
+        "city": "Cleveland",
+        "country": "United States",
+        "capacity": 34830,
+        "opened": 1994
+      }
+    },
+    {
+      "id": "mlb_007",
+      "name": "Target Field",
+      "team": "Minnesota Twins",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 44.9817, "lng": -93.2776 },
+      "radius": 170,
+      "hints": {
+        "city": "Minneapolis",
+        "country": "United States",
+        "capacity": 38544,
+        "opened": 2010
+      }
+    },
+    {
+      "id": "mlb_008",
+      "name": "Guaranteed Rate Field",
+      "team": "Chicago White Sox",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 41.8299, "lng": -87.6338 },
+      "radius": 170,
+      "hints": {
+        "city": "Chicago",
+        "country": "United States",
+        "capacity": 40615,
+        "opened": 1991
+      }
+    },
+    {
+      "id": "mlb_009",
+      "name": "Comerica Park",
+      "team": "Detroit Tigers",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 42.3390, "lng": -83.0485 },
+      "radius": 170,
+      "hints": {
+        "city": "Detroit",
+        "country": "United States",
+        "capacity": 41083,
+        "opened": 2000
+      }
+    },
+    {
+      "id": "mlb_010",
+      "name": "Kauffman Stadium",
+      "team": "Kansas City Royals",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 39.0517, "lng": -94.4803 },
+      "radius": 170,
+      "hints": {
+        "city": "Kansas City",
+        "country": "United States",
+        "capacity": 37903,
+        "opened": 1973
+      }
+    },
+    {
+      "id": "mlb_011",
+      "name": "Minute Maid Park",
+      "team": "Houston Astros",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 29.7573, "lng": -95.3555 },
+      "radius": 170,
+      "hints": {
+        "city": "Houston",
+        "country": "United States",
+        "capacity": 41168,
+        "opened": 2000
+      }
+    },
+    {
+      "id": "mlb_012",
+      "name": "Globe Life Field",
+      "team": "Texas Rangers",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 32.7473, "lng": -97.0835 },
+      "radius": 180,
+      "hints": {
+        "city": "Arlington",
+        "country": "United States",
+        "capacity": 40300,
+        "opened": 2020
+      }
+    },
+    {
+      "id": "mlb_013",
+      "name": "T-Mobile Park",
+      "team": "Seattle Mariners",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 47.5914, "lng": -122.3325 },
+      "radius": 170,
+      "hints": {
+        "city": "Seattle",
+        "country": "United States",
+        "capacity": 47929,
+        "opened": 1999
+      }
+    },
+    {
+      "id": "mlb_014",
+      "name": "Oakland Coliseum",
+      "team": "Oakland Athletics",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 37.7516, "lng": -122.2005 },
+      "radius": 180,
+      "hints": {
+        "city": "Oakland",
+        "country": "United States",
+        "capacity": 46847,
+        "opened": 1966
+      }
+    },
+    {
+      "id": "mlb_015",
+      "name": "Angel Stadium",
+      "team": "Los Angeles Angels",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 33.8003, "lng": -117.8827 },
+      "radius": 180,
+      "hints": {
+        "city": "Anaheim",
+        "country": "United States",
+        "capacity": 45517,
+        "opened": 1966
+      }
+    },
+    {
+      "id": "mlb_016",
+      "name": "Truist Park",
+      "team": "Atlanta Braves",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 33.8907, "lng": -84.4677 },
+      "radius": 170,
+      "hints": {
+        "city": "Atlanta",
+        "country": "United States",
+        "capacity": 41084,
+        "opened": 2017
+      }
+    },
+    {
+      "id": "mlb_017",
+      "name": "Citizens Bank Park",
+      "team": "Philadelphia Phillies",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 39.9061, "lng": -75.1665 },
+      "radius": 170,
+      "hints": {
+        "city": "Philadelphia",
+        "country": "United States",
+        "capacity": 42901,
+        "opened": 2004
+      }
+    },
+    {
+      "id": "mlb_018",
+      "name": "Citi Field",
+      "team": "New York Mets",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 40.7571, "lng": -73.8458 },
+      "radius": 180,
+      "hints": {
+        "city": "Queens, New York",
+        "country": "United States",
+        "capacity": 41922,
+        "opened": 2009
+      }
+    },
+    {
+      "id": "mlb_019",
+      "name": "loanDepot Park",
+      "team": "Miami Marlins",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 25.7781, "lng": -80.2196 },
+      "radius": 180,
+      "hints": {
+        "city": "Miami",
+        "country": "United States",
+        "capacity": 36742,
+        "opened": 2012
+      }
+    },
+    {
+      "id": "mlb_020",
+      "name": "Nationals Park",
+      "team": "Washington Nationals",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 38.8730, "lng": -77.0074 },
+      "radius": 170,
+      "hints": {
+        "city": "Washington D.C.",
+        "country": "United States",
+        "capacity": 41339,
+        "opened": 2008
+      }
+    },
+    {
+      "id": "mlb_021",
+      "name": "American Family Field",
+      "team": "Milwaukee Brewers",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 43.0280, "lng": -87.9712 },
+      "radius": 180,
+      "hints": {
+        "city": "Milwaukee",
+        "country": "United States",
+        "capacity": 41900,
+        "opened": 2001
+      }
+    },
+    {
+      "id": "mlb_022",
+      "name": "Busch Stadium",
+      "team": "St. Louis Cardinals",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 38.6226, "lng": -90.1928 },
+      "radius": 170,
+      "hints": {
+        "city": "St. Louis",
+        "country": "United States",
+        "capacity": 45494,
+        "opened": 2006
+      }
+    },
+    {
+      "id": "mlb_023",
+      "name": "Wrigley Field",
+      "team": "Chicago Cubs",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 41.9484, "lng": -87.6553 },
+      "radius": 150,
+      "hints": {
+        "city": "Chicago",
+        "country": "United States",
+        "capacity": 41649,
+        "opened": 1914
+      }
+    },
+    {
+      "id": "mlb_024",
+      "name": "Great American Ball Park",
+      "team": "Cincinnati Reds",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 39.0979, "lng": -84.5082 },
+      "radius": 170,
+      "hints": {
+        "city": "Cincinnati",
+        "country": "United States",
+        "capacity": 42319,
+        "opened": 2003
+      }
+    },
+    {
+      "id": "mlb_025",
+      "name": "PNC Park",
+      "team": "Pittsburgh Pirates",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 40.4469, "lng": -80.0057 },
+      "radius": 160,
+      "hints": {
+        "city": "Pittsburgh",
+        "country": "United States",
+        "capacity": 38362,
+        "opened": 2001
+      }
+    },
+    {
+      "id": "mlb_026",
+      "name": "Dodger Stadium",
+      "team": "Los Angeles Dodgers",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 34.0739, "lng": -118.2400 },
+      "radius": 200,
+      "hints": {
+        "city": "Los Angeles",
+        "country": "United States",
+        "capacity": 56000,
+        "opened": 1962
+      }
+    },
+    {
+      "id": "mlb_027",
+      "name": "Petco Park",
+      "team": "San Diego Padres",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 32.7076, "lng": -117.1570 },
+      "radius": 170,
+      "hints": {
+        "city": "San Diego",
+        "country": "United States",
+        "capacity": 40209,
+        "opened": 2004
+      }
+    },
+    {
+      "id": "mlb_028",
+      "name": "Oracle Park",
+      "team": "San Francisco Giants",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 37.7786, "lng": -122.3893 },
+      "radius": 170,
+      "hints": {
+        "city": "San Francisco",
+        "country": "United States",
+        "capacity": 41265,
+        "opened": 2000
+      }
+    },
+    {
+      "id": "mlb_029",
+      "name": "Chase Field",
+      "team": "Arizona Diamondbacks",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 33.4455, "lng": -112.0667 },
+      "radius": 180,
+      "hints": {
+        "city": "Phoenix",
+        "country": "United States",
+        "capacity": 48519,
+        "opened": 1998
+      }
+    },
+    {
+      "id": "mlb_030",
+      "name": "Coors Field",
+      "team": "Colorado Rockies",
+      "sport": "baseball",
+      "league": "MLB",
+      "level": "major",
+      "coordinates": { "lat": 39.7559, "lng": -104.9942 },
+      "radius": 170,
+      "hints": {
+        "city": "Denver",
+        "country": "United States",
+        "capacity": 50144,
+        "opened": 1995
+      }
+    },
+
+    {
+      "id": "milb_aaa_001",
+      "name": "Las Vegas Ballpark",
+      "team": "Las Vegas Aviators",
+      "sport": "baseball",
+      "league": "Triple-A West",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 36.1529066, "lng": -115.33 },
+      "radius": 150,
+      "hints": {
+        "city": "Summerlin, Nevada",
+        "country": "United States",
+        "capacity": 10000,
+        "opened": 2019
+      }
+    },
+    {
+      "id": "milb_aaa_002",
+      "name": "Chickasaw Bricktown Ballpark",
+      "team": "Oklahoma City Baseball Club",
+      "sport": "baseball",
+      "league": "Triple-A West",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 35.4656, "lng": -97.5081 },
+      "radius": 140,
+      "hints": {
+        "city": "Oklahoma City",
+        "country": "United States",
+        "capacity": 9000,
+        "opened": 1998
+      }
+    },
+    {
+      "id": "milb_aaa_003",
+      "name": "Salt River Fields at Talking Stick",
+      "team": "Salt River Rafters",
+      "sport": "baseball",
+      "league": "Arizona Fall League",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 33.5453, "lng": -111.8847 },
+      "radius": 150,
+      "hints": {
+        "city": "Scottsdale",
+        "country": "United States",
+        "capacity": 11000,
+        "opened": 2011
+      }
+    },
+    {
+      "id": "milb_aaa_004",
+      "name": "Dell Diamond",
+      "team": "Round Rock Express",
+      "sport": "baseball",
+      "league": "Triple-A West",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 30.527535, "lng": -97.630342 },
+      "radius": 150,
+      "hints": {
+        "city": "Round Rock",
+        "country": "United States",
+        "capacity": 11896,
+        "opened": 2000
+      }
+    },
+    {
+      "id": "milb_aaa_005",
+      "name": "Isotopes Park",
+      "team": "Albuquerque Isotopes",
+      "sport": "baseball",
+      "league": "Triple-A West",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 35.06978, "lng": -106.6293 },
+      "radius": 150,
+      "hints": {
+        "city": "Albuquerque",
+        "country": "United States",
+        "capacity": 13279,
+        "opened": 2003
+      }
+    },
+    {
+      "id": "milb_aaa_006",
+      "name": "Sahlen Field",
+      "team": "Buffalo Bisons",
+      "sport": "baseball",
+      "league": "Triple-A East",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 42.8796, "lng": -78.8730 },
+      "radius": 150,
+      "hints": {
+        "city": "Buffalo",
+        "country": "United States",
+        "capacity": 16600,
+        "opened": 1988
+      }
+    },
+    {
+      "id": "milb_aaa_007",
+      "name": "Huntington Park",
+      "team": "Columbus Clippers",
+      "sport": "baseball",
+      "league": "Triple-A East",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 39.9584, "lng": -82.9875 },
+      "radius": 150,
+      "hints": {
+        "city": "Columbus",
+        "country": "United States",
+        "capacity": 10100,
+        "opened": 2009
+      }
+    },
+    {
+      "id": "milb_aaa_008",
+      "name": "Fifth Third Field",
+      "team": "Toledo Mud Hens",
+      "sport": "baseball",
+      "league": "Triple-A East",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 41.6655, "lng": -83.5308 },
+      "radius": 140,
+      "hints": {
+        "city": "Toledo",
+        "country": "United States",
+        "capacity": 10300,
+        "opened": 2002
+      }
+    },
+    {
+      "id": "milb_aaa_009",
+      "name": "Victory Field",
+      "team": "Indianapolis Indians",
+      "sport": "baseball",
+      "league": "Triple-A East",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 39.7679, "lng": -86.1724 },
+      "radius": 150,
+      "hints": {
+        "city": "Indianapolis",
+        "country": "United States",
+        "capacity": 14230,
+        "opened": 1996
+      }
+    },
+    {
+      "id": "milb_aaa_010",
+      "name": "Louisville Slugger Field",
+      "team": "Louisville Bats",
+      "sport": "baseball",
+      "league": "Triple-A East",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 38.2573, "lng": -85.7426 },
+      "radius": 140,
+      "hints": {
+        "city": "Louisville",
+        "country": "United States",
+        "capacity": 13131,
+        "opened": 2000
+      }
+    },
+    {
+      "id": "milb_aaa_011",
+      "name": "Polar Park",
+      "team": "Worcester Red Sox",
+      "sport": "baseball",
+      "league": "Triple-A East",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 42.2686, "lng": -71.8047 },
+      "radius": 140,
+      "hints": {
+        "city": "Worcester",
+        "country": "United States",
+        "capacity": 9508,
+        "opened": 2021
+      }
+    },
+    {
+      "id": "milb_aaa_012",
+      "name": "Harbor Park",
+      "team": "Norfolk Tides",
+      "sport": "baseball",
+      "league": "Triple-A East",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 36.8437, "lng": -76.2728 },
+      "radius": 140,
+      "hints": {
+        "city": "Norfolk",
+        "country": "United States",
+        "capacity": 11856,
+        "opened": 1993
+      }
+    },
+    {
+      "id": "milb_aaa_013",
+      "name": "Lehigh Valley IronPigs Stadium",
+      "team": "Lehigh Valley IronPigs",
+      "sport": "baseball",
+      "league": "Triple-A East",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 40.625772, "lng": -75.452770 },
+      "radius": 150,
+      "hints": {
+        "city": "Allentown",
+        "country": "United States",
+        "capacity": 10100,
+        "opened": 2008
+      }
+    },
+    {
+      "id": "milb_aaa_014",
+      "name": "Durham Bulls Athletic Park",
+      "team": "Durham Bulls",
+      "sport": "baseball",
+      "league": "Triple-A East",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 35.991668, "lng": -78.902479 },
+      "radius": 140,
+      "hints": {
+        "city": "Durham",
+        "country": "United States",
+        "capacity": 10000,
+        "opened": 1995
+      }
+    },
+    {
+      "id": "milb_aaa_015",
+      "name": "Gwinnett Stripers Stadium",
+      "team": "Gwinnett Stripers",
+      "sport": "baseball",
+      "league": "Triple-A East",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 34.0407, "lng": -83.9927 },
+      "radius": 150,
+      "hints": {
+        "city": "Lawrenceville",
+        "country": "United States",
+        "capacity": 10427,
+        "opened": 2009
+      }
+    },
+    {
+      "id": "milb_aaa_016",
+      "name": "Charlotte Knights Stadium",
+      "team": "Charlotte Knights",
+      "sport": "baseball",
+      "league": "Triple-A East",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 35.2277, "lng": -80.8489 },
+      "radius": 150,
+      "hints": {
+        "city": "Charlotte",
+        "country": "United States",
+        "capacity": 10200,
+        "opened": 2014
+      }
+    },
+    {
+      "id": "milb_aaa_017",
+      "name": "AutoZone Park",
+      "team": "Memphis Redbirds",
+      "sport": "baseball",
+      "league": "Triple-A East",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 35.142993, "lng": -90.0498777 },
+      "radius": 140,
+      "hints": {
+        "city": "Memphis",
+        "country": "United States",
+        "capacity": 8800,
+        "opened": 2000
+      }
+    },
+    {
+      "id": "milb_aaa_018",
+      "name": "Sutter Health Park",
+      "team": "Sacramento River Cats",
+      "sport": "baseball",
+      "league": "Triple-A West",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 38.5803, "lng": -121.5139 },
+      "radius": 150,
+      "hints": {
+        "city": "West Sacramento",
+        "country": "United States",
+        "capacity": 14014,
+        "opened": 2000
+      }
+    },
+    {
+      "id": "milb_aaa_019",
+      "name": "Cheney Stadium",
+      "team": "Tacoma Rainiers",
+      "sport": "baseball",
+      "league": "Triple-A West",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 47.2380, "lng": -122.4700 },
+      "radius": 150,
+      "hints": {
+        "city": "Tacoma",
+        "country": "United States",
+        "capacity": 9600,
+        "opened": 1960
+      }
+    },
+    {
+      "id": "milb_aaa_020",
+      "name": "Smith's Ballpark",
+      "team": "Salt Lake Bees",
+      "sport": "baseball",
+      "league": "Triple-A West",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 40.549782, "lng": -112.0226 },
+      "radius": 150,
+      "hints": {
+        "city": "Salt Lake City",
+        "country": "United States",
+        "capacity": 14511,
+        "opened": 1994
+      }
+    },
+    {
+      "id": "milb_aaa_021",
+      "name": "El Paso Chihuahuas Stadium",
+      "team": "El Paso Chihuahuas",
+      "sport": "baseball",
+      "league": "Triple-A West",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 31.7604, "lng": -106.4899 },
+      "radius": 150,
+      "hints": {
+        "city": "El Paso",
+        "country": "United States",
+        "capacity": 9500,
+        "opened": 2014
+      }
+    },
+    {
+      "id": "milb_aaa_022",
+      "name": "Wolff Stadium",
+      "team": "San Antonio Missions",
+      "sport": "baseball",
+      "league": "Triple-A West",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 29.4171, "lng": -98.5206 },
+      "radius": 140,
+      "hints": {
+        "city": "San Antonio",
+        "country": "United States",
+        "capacity": 6200,
+        "opened": 1994
+      }
+    },
+    {
+      "id": "milb_aaa_023",
+      "name": "Reno Aces Ballpark",
+      "team": "Reno Aces",
+      "sport": "baseball",
+      "league": "Triple-A West",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 39.5275, "lng": -119.8128 },
+      "radius": 140,
+      "hints": {
+        "city": "Reno",
+        "country": "United States",
+        "capacity": 9013,
+        "opened": 2009
+      }
+    },
+    {
+      "id": "milb_aaa_024",
+      "name": "Principal Park",
+      "team": "Iowa Cubs",
+      "sport": "baseball",
+      "league": "Triple-A East",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 41.5847, "lng": -93.6180 },
+      "radius": 150,
+      "hints": {
+        "city": "Des Moines",
+        "country": "United States",
+        "capacity": 11500,
+        "opened": 1992
+      }
+    },
+    {
+      "id": "milb_aaa_025",
+      "name": "Werner Park",
+      "team": "Omaha Storm Chasers",
+      "sport": "baseball",
+      "league": "Triple-A East",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 41.1175, "lng": -96.1292 },
+      "radius": 150,
+      "hints": {
+        "city": "Papillion",
+        "country": "United States",
+        "capacity": 9023,
+        "opened": 2011
+      }
+    },
+    {
+      "id": "milb_aaa_026",
+      "name": "CHS Field",
+      "team": "St. Paul Saints",
+      "sport": "baseball",
+      "league": "Triple-A East",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 44.9536, "lng": -93.0914 },
+      "radius": 140,
+      "hints": {
+        "city": "St. Paul",
+        "country": "United States",
+        "capacity": 7210,
+        "opened": 2015
+      }
+    },
+    {
+      "id": "milb_aaa_027",
+      "name": "Fountain Field at Coolray",
+      "team": "Nashville Sounds",
+      "sport": "baseball",
+      "league": "Triple-A East",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 36.1709, "lng": -86.7650 },
+      "radius": 150,
+      "hints": {
+        "city": "Nashville",
+        "country": "United States",
+        "capacity": 10000,
+        "opened": 2015
+      }
+    },
+    {
+      "id": "milb_aaa_028",
+      "name": "Rochester Red Wings Stadium",
+      "team": "Rochester Red Wings",
+      "sport": "baseball",
+      "league": "Triple-A East",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 43.1583, "lng": -77.6199 },
+      "radius": 150,
+      "hints": {
+        "city": "Rochester",
+        "country": "United States",
+        "capacity": 10840,
+        "opened": 1996
+      }
+    },
+    {
+      "id": "milb_aaa_029",
+      "name": "Scranton/Wilkes-Barre Stadium",
+      "team": "Scranton/Wilkes-Barre RailRiders",
+      "sport": "baseball",
+      "league": "Triple-A East",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 41.3604, "lng": -75.6841 },
+      "radius": 150,
+      "hints": {
+        "city": "Moosic",
+        "country": "United States",
+        "capacity": 10000,
+        "opened": 1989
+      }
+    },
+    {
+      "id": "milb_aaa_030",
+      "name": "McCoy Stadium",
+      "team": "Syracuse Mets",
+      "sport": "baseball",
+      "league": "Triple-A East",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 43.0696, "lng": -76.1096 },
+      "radius": 150,
+      "hints": {
+        "city": "Syracuse",
+        "country": "United States",
+        "capacity": 10500,
+        "opened": 1997
+      }
+    },
+
+    {
+      "id": "milb_aa_001",
+      "name": "HODGETOWN",
+      "team": "Amarillo Sod Poodles",
+      "sport": "baseball",
+      "league": "Double-A Central",
+      "level": "minor_aa",
+      "coordinates": { "lat": 35.1899, "lng": -101.8396 },
+      "radius": 130,
+      "hints": {
+        "city": "Amarillo",
+        "country": "United States",
+        "capacity": 7500,
+        "opened": 2019
+      }
+    },
+    {
+      "id": "milb_aa_002",
+      "name": "Whataburger Field",
+      "team": "Corpus Christi Hooks",
+      "sport": "baseball",
+      "league": "Double-A Central",
+      "level": "minor_aa",
+      "coordinates": { "lat": 27.7883, "lng": -97.3913 },
+      "radius": 130,
+      "hints": {
+        "city": "Corpus Christi",
+        "country": "United States",
+        "capacity": 8000,
+        "opened": 2005
+      }
+    },
+    {
+      "id": "milb_aa_003",
+      "name": "Arvest Ballpark",
+      "team": "Northwest Arkansas Naturals",
+      "sport": "baseball",
+      "league": "Double-A Central",
+      "level": "minor_aa",
+      "coordinates": { "lat": 36.3317, "lng": -94.1789 },
+      "radius": 130,
+      "hints": {
+        "city": "Springdale",
+        "country": "United States",
+        "capacity": 7319,
+        "opened": 2008
+      }
+    },
+    {
+      "id": "milb_aa_004",
+      "name": "Dickey-Stephens Park",
+      "team": "Arkansas Travelers",
+      "sport": "baseball",
+      "league": "Double-A Central",
+      "level": "minor_aa",
+      "coordinates": { "lat": 34.7556, "lng": -92.2753 },
+      "radius": 130,
+      "hints": {
+        "city": "North Little Rock",
+        "country": "United States",
+        "capacity": 7000,
+        "opened": 2007
+      }
+    },
+    {
+      "id": "milb_aa_005",
+      "name": "MGM Park",
+      "team": "Biloxi Shuckers",
+      "sport": "baseball",
+      "league": "Double-A South",
+      "level": "minor_aa",
+      "coordinates": { "lat": 30.4033, "lng": -88.9269 },
+      "radius": 130,
+      "hints": {
+        "city": "Biloxi",
+        "country": "United States",
+        "capacity": 6067,
+        "opened": 2015
+      }
+    },
+    {
+      "id": "milb_aa_006",
+      "name": "Regions Field",
+      "team": "Birmingham Barons",
+      "sport": "baseball",
+      "league": "Double-A South",
+      "level": "minor_aa",
+      "coordinates": { "lat": 33.5190, "lng": -86.8085 },
+      "radius": 130,
+      "hints": {
+        "city": "Birmingham",
+        "country": "United States",
+        "capacity": 8500,
+        "opened": 2013
+      }
+    },
+    {
+      "id": "milb_aa_007",
+      "name": "AT&T Field",
+      "team": "Chattanooga Lookouts",
+      "sport": "baseball",
+      "league": "Double-A South",
+      "level": "minor_aa",
+      "coordinates": { "lat": 35.0482, "lng": -85.3101 },
+      "radius": 130,
+      "hints": {
+        "city": "Chattanooga",
+        "country": "United States",
+        "capacity": 6340,
+        "opened": 2000
+      }
+    },
+    {
+      "id": "milb_aa_008",
+      "name": "Five County Stadium",
+      "team": "Carolina Mudcats",
+      "sport": "baseball",
+      "league": "Low-A East",
+      "level": "minor_a",
+      "coordinates": { "lat": 35.5339, "lng": -78.3383 },
+      "radius": 120,
+      "hints": {
+        "city": "Zebulon",
+        "country": "United States",
+        "capacity": 6500,
+        "opened": 1991
+      }
+    },
+    {
+      "id": "milb_aa_009",
+      "name": "Montgomery Riverwalk Stadium",
+      "team": "Montgomery Biscuits",
+      "sport": "baseball",
+      "league": "Double-A South",
+      "level": "minor_aa",
+      "coordinates": { "lat": 32.3759, "lng": -86.3024 },
+      "radius": 130,
+      "hints": {
+        "city": "Montgomery",
+        "country": "United States",
+        "capacity": 7000,
+        "opened": 2004
+      }
+    },
+    {
+      "id": "milb_aa_010",
+      "name": "Smokies Stadium",
+      "team": "Tennessee Smokies",
+      "sport": "baseball",
+      "league": "Double-A South",
+      "level": "minor_aa",
+      "coordinates": { "lat": 35.8686, "lng": -83.8303 },
+      "radius": 130,
+      "hints": {
+        "city": "Kodak",
+        "country": "United States",
+        "capacity": 6500,
+        "opened": 2000
+      }
+    },
+    {
+      "id": "milb_aa_011",
+      "name": "Rocket City Trash Pandas Stadium",
+      "team": "Rocket City Trash Pandas",
+      "sport": "baseball",
+      "league": "Double-A South",
+      "level": "minor_aa",
+      "coordinates": { "lat": 34.7223, "lng": -86.5936 },
+      "radius": 130,
+      "hints": {
+        "city": "Madison",
+        "country": "United States",
+        "capacity": 7500,
+        "opened": 2020
+      }
+    },
+    {
+      "id": "milb_aa_012",
+      "name": "Pensacola Blue Wahoos Stadium",
+      "team": "Pensacola Blue Wahoos",
+      "sport": "baseball",
+      "league": "Double-A South",
+      "level": "minor_aa",
+      "coordinates": { "lat": 30.4031, "lng": -87.2116 },
+      "radius": 130,
+      "hints": {
+        "city": "Pensacola",
+        "country": "United States",
+        "capacity": 5038,
+        "opened": 2012
+      }
+    },
+    {
+      "id": "milb_aa_013",
+      "name": "UPMC Park",
+      "team": "Erie SeaWolves",
+      "sport": "baseball",
+      "league": "Double-A Northeast",
+      "level": "minor_aa",
+      "coordinates": { "lat": 42.1177, "lng": -80.0758 },
+      "radius": 130,
+      "hints": {
+        "city": "Erie",
+        "country": "United States",
+        "capacity": 6000,
+        "opened": 1995
+      }
+    },
+    {
+      "id": "milb_aa_014",
+      "name": "NYSEG Stadium",
+      "team": "Binghamton Rumble Ponies",
+      "sport": "baseball",
+      "league": "Double-A Northeast",
+      "level": "minor_aa",
+      "coordinates": { "lat": 42.0983, "lng": -75.9677 },
+      "radius": 130,
+      "hints": {
+        "city": "Binghamton",
+        "country": "United States",
+        "capacity": 6012,
+        "opened": 1992
+      }
+    },
+    {
+      "id": "milb_aa_015",
+      "name": "Dunkin' Donuts Park",
+      "team": "Hartford Yard Goats",
+      "sport": "baseball",
+      "league": "Double-A Northeast",
+      "level": "minor_aa",
+      "coordinates": { "lat": 41.7663, "lng": -72.6833 },
+      "radius": 130,
+      "hints": {
+        "city": "Hartford",
+        "country": "United States",
+        "capacity": 6121,
+        "opened": 2017
+      }
+    },
+    {
+      "id": "milb_aa_016",
+      "name": "FNB Field",
+      "team": "Harrisburg Senators",
+      "sport": "baseball",
+      "league": "Double-A Northeast",
+      "level": "minor_aa",
+      "coordinates": { "lat": 40.2631, "lng": -76.8850 },
+      "radius": 130,
+      "hints": {
+        "city": "Harrisburg",
+        "country": "United States",
+        "capacity": 6187,
+        "opened": 1987
+      }
+    },
+    {
+      "id": "milb_aa_017",
+      "name": "The Diamond",
+      "team": "Richmond Flying Squirrels",
+      "sport": "baseball",
+      "league": "Double-A Northeast",
+      "level": "minor_aa",
+      "coordinates": { "lat": 37.5619, "lng": -77.4725 },
+      "radius": 130,
+      "hints": {
+        "city": "Richmond",
+        "country": "United States",
+        "capacity": 12134,
+        "opened": 1985
+      }
+    },
+    {
+      "id": "milb_aa_018",
+      "name": "Peoples Natural Gas Field",
+      "team": "Altoona Curve",
+      "sport": "baseball",
+      "league": "Double-A Northeast",
+      "level": "minor_aa",
+      "coordinates": { "lat": 40.4829, "lng": -78.4147 },
+      "radius": 130,
+      "hints": {
+        "city": "Altoona",
+        "country": "United States",
+        "capacity": 7210,
+        "opened": 1999
+      }
+    },
+    {
+      "id": "milb_aa_019",
+      "name": "Canal Park",
+      "team": "Akron RubberDucks",
+      "sport": "baseball",
+      "league": "Double-A Northeast",
+      "level": "minor_aa",
+      "coordinates": { "lat": 41.0851, "lng": -81.5203 },
+      "radius": 130,
+      "hints": {
+        "city": "Akron",
+        "country": "United States",
+        "capacity": 7630,
+        "opened": 1997
+      }
+    },
+    {
+      "id": "milb_aa_020",
+      "name": "Hadlock Field",
+      "team": "Portland Sea Dogs",
+      "sport": "baseball",
+      "league": "Double-A Northeast",
+      "level": "minor_aa",
+      "coordinates": { "lat": 43.6537, "lng": -70.2587 },
+      "radius": 130,
+      "hints": {
+        "city": "Portland",
+        "country": "United States",
+        "capacity": 7368,
+        "opened": 1994
+      }
+    },
+    {
+      "id": "milb_aa_021",
+      "name": "Northeast Delta Dental Stadium",
+      "team": "New Hampshire Fisher Cats",
+      "sport": "baseball",
+      "league": "Double-A Northeast",
+      "level": "minor_aa",
+      "coordinates": { "lat": 42.9975, "lng": -71.4614 },
+      "radius": 130,
+      "hints": {
+        "city": "Manchester",
+        "country": "United States",
+        "capacity": 6500,
+        "opened": 2005
+      }
+    },
+    {
+      "id": "milb_aa_022",
+      "name": "Dow Diamond",
+      "team": "Great Lakes Loons",
+      "sport": "baseball",
+      "league": "High-A Central",
+      "level": "minor_a",
+      "coordinates": { "lat": 43.6227, "lng": -84.2303 },
+      "radius": 120,
+      "hints": {
+        "city": "Midland",
+        "country": "United States",
+        "capacity": 5500,
+        "opened": 2007
+      }
+    },
+    {
+      "id": "milb_aa_023",
+      "name": "Frisco Riders Ballpark",
+      "team": "Frisco RoughRiders",
+      "sport": "baseball",
+      "league": "Double-A Central",
+      "level": "minor_aa",
+      "coordinates": { "lat": 33.1026, "lng": -96.8219 },
+      "radius": 130,
+      "hints": {
+        "city": "Frisco",
+        "country": "United States",
+        "capacity": 10316,
+        "opened": 2003
+      }
+    },
+    {
+      "id": "milb_aa_024",
+      "name": "Midland RockHounds Stadium",
+      "team": "Midland RockHounds",
+      "sport": "baseball",
+      "league": "Double-A Central",
+      "level": "minor_aa",
+      "coordinates": { "lat": 31.9577, "lng": -102.1128 },
+      "radius": 130,
+      "hints": {
+        "city": "Midland",
+        "country": "United States",
+        "capacity": 5000,
+        "opened": 2002
+      }
+    },
+    {
+      "id": "milb_aa_025",
+      "name": "Tulsa Drillers Stadium",
+      "team": "Tulsa Drillers",
+      "sport": "baseball",
+      "league": "Double-A Central",
+      "level": "minor_aa",
+      "coordinates": { "lat": 36.1514, "lng": -95.9925 },
+      "radius": 140,
+      "hints": {
+        "city": "Tulsa",
+        "country": "United States",
+        "capacity": 7833,
+        "opened": 2010
+      }
+    },
+    {
+      "id": "milb_aa_026",
+      "name": "Hammons Field",
+      "team": "Springfield Cardinals",
+      "sport": "baseball",
+      "league": "Double-A Central",
+      "level": "minor_aa",
+      "coordinates": { "lat": 37.2068, "lng": -93.2629 },
+      "radius": 130,
+      "hints": {
+        "city": "Springfield",
+        "country": "United States",
+        "capacity": 8000,
+        "opened": 2004
+      }
+    },
+    {
+      "id": "milb_aa_027",
+      "name": "Wichita Wind Surge Stadium",
+      "team": "Wichita Wind Surge",
+      "sport": "baseball",
+      "league": "Double-A Central",
+      "level": "minor_aa",
+      "coordinates": { "lat": 37.6886, "lng": -97.3472 },
+      "radius": 130,
+      "hints": {
+        "city": "Wichita",
+        "country": "United States",
+        "capacity": 6500,
+        "opened": 2020
+      }
+    },
+    {
+      "id": "milb_aa_028",
+      "name": "Lake Elsinore Diamond",
+      "team": "Lake Elsinore Storm",
+      "sport": "baseball",
+      "league": "High-A West",
+      "level": "minor_a",
+      "coordinates": { "lat": 33.6720, "lng": -117.3259 },
+      "radius": 120,
+      "hints": {
+        "city": "Lake Elsinore",
+        "country": "United States",
+        "capacity": 7866,
+        "opened": 1994
+      }
+    },
+    {
+      "id": "milb_aa_029",
+      "name": "Excite Ballpark",
+      "team": "San Jose Giants",
+      "sport": "baseball",
+      "league": "High-A West",
+      "level": "minor_a",
+      "coordinates": { "lat": 37.3339, "lng": -121.8536 },
+      "radius": 120,
+      "hints": {
+        "city": "San Jose",
+        "country": "United States",
+        "capacity": 4200,
+        "opened": 1942
+      }
+    },
+    {
+      "id": "milb_aa_030",
+      "name": "Banner Island Ballpark",
+      "team": "Stockton Ports",
+      "sport": "baseball",
+      "league": "High-A West",
+      "level": "minor_a",
+      "coordinates": { "lat": 37.9558, "lng": -121.2883 },
+      "radius": 120,
+      "hints": {
+        "city": "Stockton",
+        "country": "United States",
+        "capacity": 5300,
+        "opened": 2005
+      }
+    },
+
+    {
+      "id": "milb_a_001",
+      "name": "Parkview Field",
+      "team": "Fort Wayne TinCaps",
+      "sport": "baseball",
+      "league": "High-A Central",
+      "level": "minor_a",
+      "coordinates": { "lat": 41.0819, "lng": -85.1361 },
+      "radius": 120,
+      "hints": {
+        "city": "Fort Wayne",
+        "country": "United States",
+        "capacity": 8100,
+        "opened": 2009
+      }
+    },
+    {
+      "id": "milb_a_002",
+      "name": "Four Winds Field",
+      "team": "South Bend Cubs",
+      "sport": "baseball",
+      "league": "High-A Central",
+      "level": "minor_a",
+      "coordinates": { "lat": 41.6826, "lng": -86.2539 },
+      "radius": 120,
+      "hints": {
+        "city": "South Bend",
+        "country": "United States",
+        "capacity": 5000,
+        "opened": 1987
+      }
+    },
+    {
+      "id": "milb_a_003",
+      "name": "Modern Woodmen Park",
+      "team": "Quad Cities River Bandits",
+      "sport": "baseball",
+      "league": "High-A Central",
+      "level": "minor_a",
+      "coordinates": { "lat": 41.5200, "lng": -90.5122 },
+      "radius": 120,
+      "hints": {
+        "city": "Davenport",
+        "country": "United States",
+        "capacity": 5500,
+        "opened": 1931
+      }
+    },
+    {
+      "id": "milb_a_004",
+      "name": "Bowling Green Ballpark",
+      "team": "Bowling Green Hot Rods",
+      "sport": "baseball",
+      "league": "High-A East",
+      "level": "minor_a",
+      "coordinates": { "lat": 36.9683, "lng": -86.4433 },
+      "radius": 120,
+      "hints": {
+        "city": "Bowling Green",
+        "country": "United States",
+        "capacity": 4559,
+        "opened": 2009
+      }
+    },
+    {
+      "id": "milb_a_005",
+      "name": "Appalachian Power Park",
+      "team": "Charleston Dirty Birds",
+      "sport": "baseball",
+      "league": "Atlantic League",
+      "level": "minor_a",
+      "coordinates": { "lat": 38.3469, "lng": -81.6173 },
+      "radius": 120,
+      "hints": {
+        "city": "Charleston",
+        "country": "United States",
+        "capacity": 4500,
+        "opened": 2005
+      }
+    },
+    {
+      "id": "milb_a_006",
+      "name": "Grainger Stadium",
+      "team": "Down East Wood Ducks",
+      "sport": "baseball",
+      "league": "Low-A East",
+      "level": "minor_a",
+      "coordinates": { "lat": 35.3675, "lng": -77.9633 },
+      "radius": 120,
+      "hints": {
+        "city": "Kinston",
+        "country": "United States",
+        "capacity": 4100,
+        "opened": 1949
+      }
+    },
+    {
+      "id": "milb_a_007",
+      "name": "TicketReturn.com Field",
+      "team": "Myrtle Beach Pelicans",
+      "sport": "baseball",
+      "league": "Low-A East",
+      "level": "minor_a",
+      "coordinates": { "lat": 33.7289, "lng": -78.9522 },
+      "radius": 120,
+      "hints": {
+        "city": "Myrtle Beach",
+        "country": "United States",
+        "capacity": 6599,
+        "opened": 1999
+      }
+    },
+    {
+      "id": "milb_a_008",
+      "name": "Segra Stadium",
+      "team": "Fayetteville Woodpeckers",
+      "sport": "baseball",
+      "league": "Low-A East",
+      "level": "minor_a",
+      "coordinates": { "lat": 35.0492, "lng": -78.8858 },
+      "radius": 120,
+      "hints": {
+        "city": "Fayetteville",
+        "country": "United States",
+        "capacity": 5228,
+        "opened": 2019
+      }
+    },
+    {
+      "id": "milb_a_009",
+      "name": "Joseph P. Riley Jr. Park",
+      "team": "Charleston RiverDogs",
+      "sport": "baseball",
+      "league": "Low-A East",
+      "level": "minor_a",
+      "coordinates": { "lat": 32.7897, "lng": -79.9605 },
+      "radius": 120,
+      "hints": {
+        "city": "Charleston",
+        "country": "United States",
+        "capacity": 6000,
+        "opened": 1997
+      }
+    },
+    {
+      "id": "milb_a_010",
+      "name": "Coolray Field",
+      "team": "Rome Emperors",
+      "sport": "baseball",
+      "league": "High-A East",
+      "level": "minor_a",
+      "coordinates": { "lat": 34.2531, "lng": -85.2006 },
+      "radius": 120,
+      "hints": {
+        "city": "Rome",
+        "country": "United States",
+        "capacity": 5105,
+        "opened": 2003
+      }
+    },
+    {
+      "id": "milb_a_011",
+      "name": "Fluor Field at the West End",
+      "team": "Greenville Drive",
+      "sport": "baseball",
+      "league": "High-A East",
+      "level": "minor_a",
+      "coordinates": { "lat": 34.8426, "lng": -82.4055 },
+      "radius": 120,
+      "hints": {
+        "city": "Greenville",
+        "country": "United States",
+        "capacity": 5700,
+        "opened": 2006
+      }
+    },
+    {
+      "id": "milb_a_012",
+      "name": "McCormick Field",
+      "team": "Asheville Tourists",
+      "sport": "baseball",
+      "league": "High-A East",
+      "level": "minor_a",
+      "coordinates": { "lat": 35.5823, "lng": -82.5377 },
+      "radius": 120,
+      "hints": {
+        "city": "Asheville",
+        "country": "United States",
+        "capacity": 4000,
+        "opened": 1924
+      }
+    },
+    {
+      "id": "milb_a_013",
+      "name": "Hodges Stadium",
+      "team": "Jacksonville Jumbo Shrimp",
+      "sport": "baseball",
+      "league": "Triple-A East",
+      "level": "minor_aaa",
+      "coordinates": { "lat": 30.3250, "lng": -81.6431 },
+      "radius": 150,
+      "hints": {
+        "city": "Jacksonville",
+        "country": "United States",
+        "capacity": 11000,
+        "opened": 2003
+      }
+    },
+    {
+      "id": "milb_a_014",
+      "name": "Whitaker Bank Ballpark",
+      "team": "Lexington Legends",
+      "sport": "baseball",
+      "league": "Atlantic League",
+      "level": "minor_a",
+      "coordinates": { "lat": 38.0493, "lng": -84.5047 },
+      "radius": 120,
+      "hints": {
+        "city": "Lexington",
+        "country": "United States",
+        "capacity": 6033,
+        "opened": 2001
+      }
+    },
+    {
+      "id": "milb_a_015",
+      "name": "Atrium Health Ballpark",
+      "team": "Kannapolis Cannon Ballers",
+      "sport": "baseball",
+      "league": "Low-A East",
+      "level": "minor_a",
+      "coordinates": { "lat": 35.4939, "lng": -80.6206 },
+      "radius": 120,
+      "hints": {
+        "city": "Kannapolis",
+        "country": "United States",
+        "capacity": 4930,
+        "opened": 2020
+      }
+    },
+    {
+      "id": "milb_a_016",
+      "name": "BB&T Ballpark",
+      "team": "Winston-Salem Dash",
+      "sport": "baseball",
+      "league": "High-A East",
+      "level": "minor_a",
+      "coordinates": { "lat": 36.1011, "lng": -80.2548 },
+      "radius": 120,
+      "hints": {
+        "city": "Winston-Salem",
+        "country": "United States",
+        "capacity": 5500,
+        "opened": 2010
+      }
+    },
+    {
+      "id": "milb_a_017",
+      "name": "First National Bank Field",
+      "team": "Greensboro Grasshoppers",
+      "sport": "baseball",
+      "league": "High-A East",
+      "level": "minor_a",
+      "coordinates": { "lat": 36.0706, "lng": -79.7889 },
+      "radius": 120,
+      "hints": {
+        "city": "Greensboro",
+        "country": "United States",
+        "capacity": 7499,
+        "opened": 2005
+      }
+    },
+    {
+      "id": "milb_a_018",
+      "name": "CommunityAmerica Ballpark",
+      "team": "Kansas City Monarchs",
+      "sport": "baseball",
+      "league": "American Association",
+      "level": "minor_a",
+      "coordinates": { "lat": 39.1111, "lng": -94.6361 },
+      "radius": 120,
+      "hints": {
+        "city": "Kansas City",
+        "country": "United States",
+        "capacity": 6537,
+        "opened": 2003
+      }
+    },
+    {
+      "id": "milb_a_019",
+      "name": "Spectrum Field",
+      "team": "Clearwater Threshers",
+      "sport": "baseball",
+      "league": "Low-A Southeast",
+      "level": "minor_a",
+      "coordinates": { "lat": 27.9717, "lng": -82.7383 },
+      "radius": 120,
+      "hints": {
+        "city": "Clearwater",
+        "country": "United States",
+        "capacity": 8500,
+        "opened": 2004
+      }
+    },
+    {
+      "id": "milb_a_020",
+      "name": "Steinbrenner Field",
+      "team": "Tampa Tarpons",
+      "sport": "baseball",
+      "league": "Low-A Southeast",
+      "level": "minor_a",
+      "coordinates": { "lat": 28.0564, "lng": -82.4339 },
+      "radius": 130,
+      "hints": {
+        "city": "Tampa",
+        "country": "United States",
+        "capacity": 11026,
+        "opened": 1996
+      }
+    },
+    {
+      "id": "milb_a_021",
+      "name": "Hammond Stadium",
+      "team": "Fort Myers Mighty Mussels",
+      "sport": "baseball",
+      "league": "Low-A Southeast",
+      "level": "minor_a",
+      "coordinates": { "lat": 26.5372, "lng": -81.8336 },
+      "radius": 120,
+      "hints": {
+        "city": "Fort Myers",
+        "country": "United States",
+        "capacity": 9300,
+        "opened": 1991
+      }
+    },
+    {
+      "id": "milb_a_022",
+      "name": "CoolToday Park",
+      "team": "Atlanta Braves Spring Training",
+      "sport": "baseball",
+      "league": "Spring Training",
+      "level": "minor_a",
+      "coordinates": { "lat": 27.1206, "lng": -82.2706 },
+      "radius": 130,
+      "hints": {
+        "city": "North Port",
+        "country": "United States",
+        "capacity": 8000,
+        "opened": 2019
+      }
+    },
+    {
+      "id": "milb_a_023",
+      "name": "Palm Beach Gardens Municipal Stadium",
+      "team": "Jupiter Hammerheads",
+      "sport": "baseball",
+      "league": "Low-A Southeast",
+      "level": "minor_a",
+      "coordinates": { "lat": 26.8986, "lng": -80.1117 },
+      "radius": 120,
+      "hints": {
+        "city": "Jupiter",
+        "country": "United States",
+        "capacity": 6940,
+        "opened": 1998
+      }
+    },
+    {
+      "id": "milb_a_024",
+      "name": "Clover Park",
+      "team": "St. Lucie Mets",
+      "sport": "baseball",
+      "league": "Low-A Southeast",
+      "level": "minor_a",
+      "coordinates": { "lat": 27.3100, "lng": -80.3908 },
+      "radius": 120,
+      "hints": {
+        "city": "Port St. Lucie",
+        "country": "United States",
+        "capacity": 7347,
+        "opened": 1988
+      }
+    },
+    {
+      "id": "milb_a_025",
+      "name": "Ed Smith Stadium",
+      "team": "Baltimore Orioles Spring Training",
+      "sport": "baseball",
+      "league": "Spring Training",
+      "level": "minor_a",
+      "coordinates": { "lat": 27.3483, "lng": -82.5222 },
+      "radius": 120,
+      "hints": {
+        "city": "Sarasota",
+        "country": "United States",
+        "capacity": 8500,
+        "opened": 1989
+      }
+    },
+    {
+      "id": "milb_a_026",
+      "name": "Camelback Ranch",
+      "team": "Dodgers/White Sox Spring Training",
+      "sport": "baseball",
+      "league": "Spring Training",
+      "level": "minor_a",
+      "coordinates": { "lat": 33.4655, "lng": -112.2314 },
+      "radius": 140,
+      "hints": {
+        "city": "Glendale",
+        "country": "United States",
+        "capacity": 13000,
+        "opened": 2009
+      }
+    },
+    {
+      "id": "milb_a_027",
+      "name": "Sloan Park",
+      "team": "Cubs Spring Training",
+      "sport": "baseball",
+      "league": "Spring Training",
+      "level": "minor_a",
+      "coordinates": { "lat": 33.4278, "lng": -111.7036 },
+      "radius": 140,
+      "hints": {
+        "city": "Mesa",
+        "country": "United States",
+        "capacity": 15000,
+        "opened": 2014
+      }
+    },
+    {
+      "id": "milb_a_028",
+      "name": "American Family Fields of Phoenix",
+      "team": "Brewers Spring Training",
+      "sport": "baseball",
+      "league": "Spring Training",
+      "level": "minor_a",
+      "coordinates": { "lat": 33.5164, "lng": -112.0353 },
+      "radius": 130,
+      "hints": {
+        "city": "Phoenix",
+        "country": "United States",
+        "capacity": 10000,
+        "opened": 1998
+      }
+    },
+    {
+      "id": "milb_a_029",
+      "name": "Peoria Sports Complex",
+      "team": "Padres/Mariners Spring Training",
+      "sport": "baseball",
+      "league": "Spring Training",
+      "level": "minor_a",
+      "coordinates": { "lat": 33.6147, "lng": -112.2364 },
+      "radius": 130,
+      "hints": {
+        "city": "Peoria",
+        "country": "United States",
+        "capacity": 12882,
+        "opened": 1994
+      }
+    },
+    {
+      "id": "milb_a_030",
+      "name": "Goodyear Ballpark",
+      "team": "Guardians/Reds Spring Training",
+      "sport": "baseball",
+      "league": "Spring Training",
+      "level": "minor_a",
+      "coordinates": { "lat": 33.4361, "lng": -112.3886 },
+      "radius": 130,
+      "hints": {
+        "city": "Goodyear",
+        "country": "United States",
+        "capacity": 10311,
+        "opened": 2009
+      }
+    },
+    {
+      "id": "milb_a_031",
+      "name": "Tempe Diablo Stadium",
+      "team": "Angels Spring Training",
+      "sport": "baseball",
+      "league": "Spring Training",
+      "level": "minor_a",
+      "coordinates": { "lat": 33.4011, "lng": -111.9708 },
+      "radius": 120,
+      "hints": {
+        "city": "Tempe",
+        "country": "United States",
+        "capacity": 9785,
+        "opened": 1968
+      }
+    },
+    {
+      "id": "milb_a_032",
+      "name": "Hohokam Stadium",
+      "team": "Athletics Spring Training",
+      "sport": "baseball",
+      "league": "Spring Training",
+      "level": "minor_a",
+      "coordinates": { "lat": 33.4375, "lng": -111.8283 },
+      "radius": 130,
+      "hints": {
+        "city": "Mesa",
+        "country": "United States",
+        "capacity": 10500,
+        "opened": 1997
+      }
+    },
+    {
+      "id": "milb_a_033",
+      "name": "Scottsdale Stadium",
+      "team": "Giants Spring Training",
+      "sport": "baseball",
+      "league": "Spring Training",
+      "level": "minor_a",
+      "coordinates": { "lat": 33.4889, "lng": -111.9275 },
+      "radius": 120,
+      "hints": {
+        "city": "Scottsdale",
+        "country": "United States",
+        "capacity": 12000,
+        "opened": 1992
+      }
+    },
+    {
+      "id": "milb_a_034",
+      "name": "Surprise Stadium",
+      "team": "Rangers/Royals Spring Training",
+      "sport": "baseball",
+      "league": "Spring Training",
+      "level": "minor_a",
+      "coordinates": { "lat": 33.6247, "lng": -112.3653 },
+      "radius": 130,
+      "hints": {
+        "city": "Surprise",
+        "country": "United States",
+        "capacity": 10714,
+        "opened": 2002
+      }
+    },
+    {
+      "id": "milb_a_035",
+      "name": "JetBlue Park",
+      "team": "Red Sox Spring Training",
+      "sport": "baseball",
+      "league": "Spring Training",
+      "level": "minor_a",
+      "coordinates": { "lat": 26.5450, "lng": -81.8200 },
+      "radius": 130,
+      "hints": {
+        "city": "Fort Myers",
+        "country": "United States",
+        "capacity": 11000,
+        "opened": 2012
+      }
+    },
+    {
+      "id": "milb_a_036",
+      "name": "LECOM Park",
+      "team": "Pirates Spring Training",
+      "sport": "baseball",
+      "league": "Spring Training",
+      "level": "minor_a",
+      "coordinates": { "lat": 27.4900, "lng": -82.5800 },
+      "radius": 120,
+      "hints": {
+        "city": "Bradenton",
+        "country": "United States",
+        "capacity": 8500,
+        "opened": 1923
+      }
+    },
+    {
+      "id": "milb_a_037",
+      "name": "TD Ballpark",
+      "team": "Blue Jays Spring Training",
+      "sport": "baseball",
+      "league": "Spring Training",
+      "level": "minor_a",
+      "coordinates": { "lat": 27.9894, "lng": -82.7339 },
+      "radius": 120,
+      "hints": {
+        "city": "Dunedin",
+        "country": "United States",
+        "capacity": 8500,
+        "opened": 1990
+      }
+    },
+    {
+      "id": "milb_a_038",
+      "name": "BayCare Ballpark",
+      "team": "Phillies Spring Training",
+      "sport": "baseball",
+      "league": "Spring Training",
+      "level": "minor_a",
+      "coordinates": { "lat": 27.9700, "lng": -82.7383 },
+      "radius": 120,
+      "hints": {
+        "city": "Clearwater",
+        "country": "United States",
+        "capacity": 8500,
+        "opened": 2004
+      }
+    },
+    {
+      "id": "milb_a_039",
+      "name": "The Ballpark of the Palm Beaches",
+      "team": "Astros/Nationals Spring Training",
+      "sport": "baseball",
+      "league": "Spring Training",
+      "level": "minor_a",
+      "coordinates": { "lat": 26.7564, "lng": -80.1128 },
+      "radius": 140,
+      "hints": {
+        "city": "West Palm Beach",
+        "country": "United States",
+        "capacity": 8000,
+        "opened": 2017
+      }
+    },
+    {
+      "id": "milb_a_040",
+      "name": "Roger Dean Chevrolet Stadium",
+      "team": "Cardinals/Marlins Spring Training",
+      "sport": "baseball",
+      "league": "Spring Training",
+      "level": "minor_a",
+      "coordinates": { "lat": 26.8992, "lng": -80.1133 },
+      "radius": 130,
+      "hints": {
+        "city": "Jupiter",
+        "country": "United States",
+        "capacity": 6871,
+        "opened": 1998
+      }
+    }
+  ]
+}

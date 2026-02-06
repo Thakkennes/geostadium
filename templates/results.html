@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block title %}GeoStadium - Results{% endblock %}
+
+{% block content %}
+<div class="results-container">
+    <header class="results-header">
+        <h1>Game Results</h1>
+    </header>
+
+    <main class="results-main">
+        <div class="final-score-display">
+            <span class="score-label">Final Score</span>
+            <span class="score-value" id="final-score">0</span>
+        </div>
+
+        <div class="rounds-breakdown">
+            <h2>Round Breakdown</h2>
+            <div id="rounds-list"></div>
+        </div>
+
+        <div class="action-buttons">
+            <a href="/" class="btn-primary">Play Again</a>
+        </div>
+    </main>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const results = JSON.parse(sessionStorage.getItem('game_results') || 'null');
+
+    if (!results) {
+        window.location.href = '/';
+        return;
+    }
+
+    document.getElementById('final-score').textContent = results.totalScore.toLocaleString();
+
+    const roundsList = document.getElementById('rounds-list');
+    roundsList.innerHTML = results.rounds.map((round, i) => `
+        <div class="round-item">
+            <div class="round-header">
+                <span class="round-number">Round ${i + 1}</span>
+                <span class="round-score">${round.score.toLocaleString()} pts</span>
+            </div>
+            <div class="round-details">
+                <span>${round.team} - ${round.stadium}</span>
+                <span>Distance: ${formatDistance(round.distance)}</span>
+            </div>
+        </div>
+    `).join('');
+});
+
+function formatDistance(meters) {
+    if (meters < 1000) {
+        return `${Math.round(meters)} m`;
+    }
+    return `${(meters / 1000).toFixed(1)} km`;
+}
+</script>
+{% endblock %}

@@ -1,0 +1,115 @@
+{% extends "base.html" %}
+
+{% block title %}GeoStadium - Playing{% endblock %}
+
+{% block content %}
+<div class="game-container">
+    <header class="game-header">
+        <div class="game-info">
+            <a href="/" class="game-logo-link"><img src="{{ url_for('static', filename='geostadium_logo.png') }}" alt="GeoStadium" class="game-logo"></a>
+            <div class="game-stats">
+                <span class="round-info">Round <span id="current-round">1</span>/<span id="total-rounds">5</span></span>
+                <span class="score-info">Score: <span id="total-score">0</span></span>
+            </div>
+        </div>
+        <div class="team-display">
+            <span class="team-label">Find the stadium of:</span>
+            <h2 id="team-name">Loading...</h2>
+            <div class="badges">
+                <span id="league-badge" class="league-badge">MLB</span>
+                <span id="sport-badge" class="sport-badge">Baseball</span>
+            </div>
+        </div>
+        <div class="timer-display">
+            <span id="timer">0:00</span>
+        </div>
+    </header>
+
+    <main class="game-main">
+        <div id="map"></div>
+
+        <div class="game-controls">
+            <div class="hints-panel">
+                <h3>Hints <span class="hint-penalty">(reduces score)</span></h3>
+                <div class="hints-list">
+                    <button class="hint-btn" data-hint="country" data-penalty="10">
+                        <span class="hint-icon">🌍</span>
+                        <span class="hint-label">Country</span>
+                        <span class="hint-value hidden" id="hint-country"></span>
+                        <span class="hint-cost">-10%</span>
+                    </button>
+                    <button class="hint-btn" data-hint="city" data-penalty="15">
+                        <span class="hint-icon">🏙️</span>
+                        <span class="hint-label">City</span>
+                        <span class="hint-value hidden" id="hint-city"></span>
+                        <span class="hint-cost">-15%</span>
+                    </button>
+                    <button class="hint-btn" data-hint="capacity" data-penalty="10">
+                        <span class="hint-icon">👥</span>
+                        <span class="hint-label">Capacity</span>
+                        <span class="hint-value hidden" id="hint-capacity"></span>
+                        <span class="hint-cost">-10%</span>
+                    </button>
+                    <button class="hint-btn" data-hint="opened" data-penalty="10">
+                        <span class="hint-icon">📅</span>
+                        <span class="hint-label">Year Opened</span>
+                        <span class="hint-value hidden" id="hint-opened"></span>
+                        <span class="hint-cost">-10%</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="action-buttons">
+                <button id="confirm-guess" class="btn-primary" disabled>Confirm Guess</button>
+                <button id="skip-round" class="btn-secondary">Skip Round</button>
+            </div>
+        </div>
+    </main>
+
+    <div id="round-result" class="result-overlay hidden">
+        <div class="result-content">
+            <h2 id="result-title">Round Complete!</h2>
+            <div class="result-stats">
+                <div class="stat">
+                    <span class="stat-label">Stadium</span>
+                    <span class="stat-value" id="result-stadium"></span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Distance</span>
+                    <span class="stat-value" id="result-distance"></span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Time</span>
+                    <span class="stat-value" id="result-time"></span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Round Score</span>
+                    <span class="stat-value" id="result-score"></span>
+                </div>
+            </div>
+            <button id="next-round" class="btn-primary">Next Round</button>
+        </div>
+    </div>
+
+    <div id="game-over" class="result-overlay game-over-overlay hidden">
+        <div class="result-content">
+            <h2>Game Over!</h2>
+            <div class="final-score">
+                <span class="final-label">Final Score</span>
+                <span class="final-value" id="final-score">0</span>
+            </div>
+            <div class="game-summary" id="game-summary"></div>
+            <div class="game-over-buttons">
+                <button id="play-again" class="btn-primary">Play Again</button>
+                <a href="/" class="btn-secondary">Home</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/scoring.js') }}"></script>
+<script src="{{ url_for('static', filename='js/map.js') }}"></script>
+<script src="{{ url_for('static', filename='js/game.js') }}"></script>
+{% endblock %}
