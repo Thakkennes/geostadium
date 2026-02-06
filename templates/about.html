@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+{% block title %}GeoStadium - How to Play{% endblock %}
+
+{% block content %}
+<div class="about-container">
+    <header class="about-header">
+        <a href="/"><img src="{{ url_for('static', filename='geostadium_logo.png') }}" alt="GeoStadium" class="logo-image"></a>
+    </header>
+
+    <main class="about-main">
+        <section class="about-section">
+            <h2>How to Play</h2>
+            <div class="about-content">
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <div class="step-text">
+                        <h3>Choose a League</h3>
+                        <p>Select which league you want to play: MLB, Triple-A, Double-A, or other minor leagues. Each league features stadiums from that level of baseball.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <div class="step-text">
+                        <h3>Find the Stadium</h3>
+                        <p>You'll see a team name and league. Navigate the satellite map to find their stadium. Zoom in, pan around, and explore until you've found it.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <span class="step-number">3</span>
+                    <div class="step-text">
+                        <h3>Place Your Marker</h3>
+                        <p>Click on the map to place your guess. You can drag the marker to adjust your position before confirming.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <span class="step-number">4</span>
+                    <div class="step-text">
+                        <h3>Score Points</h3>
+                        <p>Your score is based on how close your guess is to the actual stadium. Get within the stadium grounds for maximum points!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <h2>Scoring</h2>
+            <div class="about-content">
+                <ul class="scoring-list">
+                    <li><strong>Base Score:</strong> 5,000 points per round</li>
+                    <li><strong>Distance Penalty:</strong> -1 point per 10 meters from the stadium</li>
+                    <li><strong>Perfect Zone:</strong> Guesses within the stadium boundaries get full points</li>
+                    <li><strong>Time Bonus:</strong> +500 points if you guess within 30 seconds</li>
+                    <li><strong>Hints:</strong> Using hints reduces your score by 10-15% each</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <h2>Hints</h2>
+            <div class="about-content">
+                <p>Stuck? Use hints to help narrow down the location, but each hint costs you points:</p>
+                <ul class="hints-list">
+                    <li><strong>Country</strong> - 10% penalty</li>
+                    <li><strong>City</strong> - 15% penalty</li>
+                    <li><strong>Capacity</strong> - 10% penalty</li>
+                    <li><strong>Year Opened</strong> - 10% penalty</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <h2>Leagues</h2>
+            <div class="about-content">
+                <ul class="leagues-list">
+                    <li><strong>MLB</strong> - All 30 Major League Baseball stadiums</li>
+                    <li><strong>Triple-A (AAA)</strong> - Top-level minor league stadiums</li>
+                    <li><strong>Double-A (AA)</strong> - Mid-level minor league stadiums</li>
+                    <li><strong>High-A</strong> - High Class-A minor league stadiums</li>
+                    <li><strong>Low-A</strong> - Low Class-A minor league stadiums</li>
+                    <li><strong>Spring Training</strong> - Spring training facilities in Arizona & Florida</li>
+                    <li><strong>Other Sports</strong> - Football, basketball, soccer, and more from around the world</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="about-actions">
+            <a href="/" class="btn-primary">Play Now</a>
+        </div>
+    </main>
+</div>
+{% endblock %}

@@ -214,7 +214,17 @@ body {
 .home-footer {
     text-align: center;
     padding-top: 40px;
+}
+
+.how-to-play-link {
     color: var(--text-secondary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.how-to-play-link:hover {
+    color: var(--primary-color);
 }
 
 /* Game Page */
@@ -698,4 +708,112 @@ body {
         max-height: 200px;
         overflow-y: auto;
     }
+}
+
+/* About Page */
+.about-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.about-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-main {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.about-section {
+    background-color: var(--surface-color);
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.about-section h2 {
+    font-size: 1.4rem;
+    margin-bottom: 16px;
+    color: var(--text-primary);
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 8px;
+}
+
+.about-content {
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.about-content p {
+    margin-bottom: 12px;
+}
+
+.step {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+
+.step:last-child {
+    margin-bottom: 0;
+}
+
+.step-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-radius: 50%;
+}
+
+.step-text h3 {
+    font-size: 1.1rem;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+}
+
+.step-text p {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+.scoring-list,
+.hints-list,
+.leagues-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.scoring-list li,
+.hints-list li,
+.leagues-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.scoring-list li:last-child,
+.hints-list li:last-child,
+.leagues-list li:last-child {
+    border-bottom: none;
+}
+
+.about-actions {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.about-actions .btn-primary {
+    padding: 16px 48px;
+    font-size: 1.1rem;
 }

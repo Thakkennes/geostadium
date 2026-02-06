@@ -38,6 +38,10 @@ def game():
 def results():
     return render_template('results.html')
 
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
 @app.route('/api/stadiums')
 def get_stadiums():
     data = load_stadiums()
